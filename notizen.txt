@@ -1,0 +1,19 @@
+Threads WICHTIG!!!
+
+Im Thread-Code alle externen Vars so requiren:
+
+	local var1,var2,var3 = ...
+
+Im Thread-Code Infos so senden:
+
+	love.thread.getChannel("IRGEND_EIN_NAME"):push(VARIABLE)
+
+Man kann Threads so:
+
+	thread = love.thread.newThread(code_als_string)
+
+oder so:
+
+	thread = love.thread.newThread(Path_zu_irgendeiner_Datei.lua)
+
+starten

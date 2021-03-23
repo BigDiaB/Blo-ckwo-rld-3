@@ -1,0 +1,1 @@
+"D:LOVE\lovec.exe" "%cd%"
